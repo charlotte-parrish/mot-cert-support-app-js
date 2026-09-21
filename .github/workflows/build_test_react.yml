@@ -2,6 +2,10 @@ name: NodeJS CI
 
 on: [push]
 
+permissions:
+  checks: write
+  contents: read
+
 jobs:
  build:
    runs-on: windows-latest
