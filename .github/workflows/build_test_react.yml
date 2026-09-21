@@ -29,10 +29,10 @@ jobs:
        run: |
          npm run build --if-present
      - name: Publish Test Results
-         uses: EnricoMi/publish-unit-test-result-action/macos@v2
-          if: always()
-          with:
-          files: |
+       uses: EnricoMi/publish-unit-test-result-action/macos@v2
+       if: always()
+       with:
+       files: |
            junit.xml
            reports/e2e-report/*.xml     
 
