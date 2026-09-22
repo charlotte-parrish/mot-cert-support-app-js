@@ -42,5 +42,5 @@ jobs:
        with:
         files: |
           junit.xml
-          reports/e2e-report/*.xml     
+          reports/e2e-report/junit-report.xml  
 
